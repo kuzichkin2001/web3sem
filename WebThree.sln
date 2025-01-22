@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThree", "WebThree\WebThree.csproj", "{3D9EDDB1-5F7D-41E5-A065-5BBA627B32D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebThree", "WebThree\WebThree.csproj", "{3D9EDDB1-5F7D-41E5-A065-5BBA627B32D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThreeOneService", "WebThreeOneService\WebThreeOneService.csproj", "{AC252A68-3571-4CE0-8FF7-066C490C9B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebThreeOneService", "WebThreeOneService\WebThreeOneService.csproj", "{AC252A68-3571-4CE0-8FF7-066C490C9B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThreeTwoService", "WebThreeTwoService\WebThreeTwoService.csproj", "{D04F0291-2343-47E4-81E1-21F96468BEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebThreeTwoService", "WebThreeTwoService\WebThreeTwoService.csproj", "{D04F0291-2343-47E4-81E1-21F96468BEE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThreeThreeService", "WebThreeThreeService\WebThreeThreeService.csproj", "{34B72B7D-0DAB-4F62-B679-D84889C9A417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebThreeThreeService", "WebThreeThreeService\WebThreeThreeService.csproj", "{34B72B7D-0DAB-4F62-B679-D84889C9A417}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus", "Bus\Bus.csproj", "{837B5B25-4CC7-4323-B378-5E678136135B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bus", "Bus\Bus.csproj", "{837B5B25-4CC7-4323-B378-5E678136135B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{5AF5C59A-8CC7-459D-AB3B-DF0E47557563}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{837B5B25-4CC7-4323-B378-5E678136135B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837B5B25-4CC7-4323-B378-5E678136135B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{837B5B25-4CC7-4323-B378-5E678136135B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF5C59A-8CC7-459D-AB3B-DF0E47557563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF5C59A-8CC7-459D-AB3B-DF0E47557563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF5C59A-8CC7-459D-AB3B-DF0E47557563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF5C59A-8CC7-459D-AB3B-DF0E47557563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
