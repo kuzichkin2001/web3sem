@@ -4,11 +4,13 @@
     {
         public int Id { get; set; }
 
+        public string CorrelationId { get; set; }
+
         public string Destination { get; set; }
 
-        public int MessageBody { get; set; }
+        public string MessageBody { get; set; }
 
-        public int MessageContentType { get; set; }
+        public string MessageContentType { get; set; }
 
         public OutboxEntryStatus MessageStatus { get; set; }
     }

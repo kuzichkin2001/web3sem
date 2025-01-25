@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bus.Shared\Bus.Shared.csproj" />
     <ProjectReference Include="..\Bus\Bus.csproj" />
+    <ProjectReference Include="..\DAO\DAO.csproj" />
   </ItemGroup>
 
 </Project>

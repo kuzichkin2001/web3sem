@@ -1,5 +1,8 @@
 
 using Bus.Extensions;
+using Configuration;
+using DAO;
+using DAO.Outbox;
 
 namespace WebThree
 {
@@ -9,9 +12,15 @@ namespace WebThree
         {
             var builder = WebApplication.CreateBuilder(args);
             var services = builder.Services;
+            var configuration = builder.Configuration;
 
             // Add services to the container.
             services.AddEndpoint("Web3");
+
+            // Add data access
+            services.AddSingleton<UnitOfWork>();
+            services.AddTransient<OutboxDao>();
+            services.AddDataAccessConfiguration(configuration);
 
             services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

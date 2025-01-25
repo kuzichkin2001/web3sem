@@ -13,5 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bus\Bus.csproj" />
+    <ProjectReference Include="..\DAO\DAO.csproj" />
   </ItemGroup>
 </Project>

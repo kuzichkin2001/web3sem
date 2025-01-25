@@ -1,9 +1,11 @@
-﻿namespace Bus
+﻿using Bus.Shared;
+
+namespace Bus
 {
     public interface IBusService
     {
-        Task SendMessageAsync(object messageObj, string destination, CancellationToken ct = default);
+        Task SendMessageAsync(object messageObj, string destination, string next = "", CancellationToken ct = default);
 
-        Task SendMessageAsync(string message, string destination, CancellationToken ct = default);
+        Task SendMessageAsync(BusMessage busMessage, CancellationToken ct = default);
     }
 }
